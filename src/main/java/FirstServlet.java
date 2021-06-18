@@ -4,7 +4,6 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
-
 @WebServlet(name = "BasicServlet", urlPatterns = "/basic_servlet")
 public class FirstServlet implements Servlet {
     private static final Logger logger = LoggerFactory.getLogger(FirstServlet.class);
