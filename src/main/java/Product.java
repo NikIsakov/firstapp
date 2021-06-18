@@ -1,9 +1,7 @@
 public class Product {
 
     private int id;
-
     private String title;
-
     private int price;
 
     public Product(int id, String title, int price) {
